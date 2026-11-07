@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Services\BancoApi;
 use Illuminate\Http\Request;
-
+    //Informacoes do Cliente
 class ClienteController extends Controller
 {
     public function index(Request $request)
